@@ -1,4 +1,3 @@
--- Criar tabela
 CREATE TABLE indicadores (
     periodo TEXT,
     mensuracao_news_percent REAL,
@@ -7,7 +6,6 @@ CREATE TABLE indicadores (
     transferencias_uti INTEGER
 );
 
--- Inserir dados
 INSERT INTO indicadores (periodo, mensuracao_news_percent, soma_correta_news_percent, pcr_setor_e, transferencias_uti) VALUES
 ('P1', 45, 35, 1, 1),
 ('P2', 50, 40, 0, 2),
